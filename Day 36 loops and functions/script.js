@@ -99,10 +99,11 @@ abcd("khaana khaalo");
 abcd("bartan rakho");
 
 function doSomething(name, age, email) {
-  console.log(arguments);
-  // console.log(arguments[0]);
+  // console.log(arguments);
+  console.log(arguments[2]);
 }
 
 doSomething("harsh", 27, "harsh@gmail.com");
+doSomething("ram", 22, "ram@gmail.com");
 
 //------------------------------------
