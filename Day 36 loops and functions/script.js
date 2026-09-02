@@ -89,21 +89,20 @@
 
 //-------------------------------------
 
-// function abcd(i) {
-//   console.log(i);
-// }
-// abcd("thaali uthao");
-// abcd("khaana bharo");
-// abcd("table pe aao");
-// abcd("khaana khaalo");
-// abcd("bartan rakho");
+function abcd(i) {
+  console.log(i);
+}
+abcd("thaali uthao");
+abcd("khaana bharo");
+abcd("table pe aao");
+abcd("khaana khaalo");
+abcd("bartan rakho");
 
-// function doSomething(name, age, email) {
-//   console.log(arguments);
-//   // console.log(arguments[0]);
-// }
+function doSomething(name, age, email) {
+  console.log(arguments);
+  // console.log(arguments[0]);
+}
 
-// doSomething("harsh", 27, "harsh@gmail.com");
-
+doSomething("harsh", 27, "harsh@gmail.com");
 
 //------------------------------------
