@@ -243,3 +243,19 @@
 // let twenty = discountPrice(20);
 // twenty(1000);
 
+//Arrays
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr[5];
+
+//----------------------------------------
+
+// ways of creating arrays  in js
+
+//1 let arr = [1,2,3,4,5,6]
+
+//2 let arr2 = new Array();
+
+
+//--------------------------------------------
+
