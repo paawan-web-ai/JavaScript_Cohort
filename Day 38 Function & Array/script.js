@@ -256,6 +256,51 @@
 
 //2 let arr2 = new Array();
 
-
 //--------------------------------------------
 
+// function on arrays
+
+// push
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.push(2);
+// console.log(arr);
+
+//pop
+
+// let arr = [1,2,3,4,5,6,7]
+// arr.pop()
+// console.log(arr)
+
+//shift
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.shift();
+// console.log(arr);
+
+//unshift
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.unshift(22);
+// console.log(arr);
+
+//indexof
+
+// let arr = [1, 2, 3, 4, 5];
+// let arr1 = arr.indexOf(2);
+// console.log(arr1);
+
+//arrays desturcturing
+
+// let arr = [1, 2, 3, 4, 5];
+// let [a, b] = arr;
+// console.log(a, b);
+
+// filter
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let arr1 = arr.filter((val) => {
+//   if (val <= 4) console.log(val);
+//   return;
+// });
