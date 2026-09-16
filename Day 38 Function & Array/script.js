@@ -375,15 +375,24 @@
 
 //jab bhi aapko aisa koi case dikh jaaye jaha par ek array se naya array banega and wo naya array kuchh values ko rakhega tab map lagega
 
-let arr = [1, 2, 3, 4, 5, 6, 7, 22];
+// let arr = [1, 2, 3, 4, 5, 6, 7, 22];
 
 // let arr1 = arr.map(function (val) {
 //   return 12;
 // });
 
-let arr1 = arr.map(function (val) {
-  if (val > 10) return val;
-  else return 0;
-});
+// let arr1 = arr.map(function (val) {
+//   if (val > 10) return val;
+//   else return 0;
+// });
 
-console.log(arr1);
+// console.log(arr1);
+
+//reduce
+
+// let arr = [1, 2, 3, 4, 5, 6];
+
+// let ans = arr.reduce((acc, val) => {
+//   return acc + val;
+// }, 0);
+// console.log(ans)
