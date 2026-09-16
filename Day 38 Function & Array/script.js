@@ -304,3 +304,84 @@
 //   if (val <= 4) console.log(val);
 //   return;
 // });
+
+//-------------------------------------
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let arr1 = arr.filter((val) => {
+//   if (val <= 6) {
+//     console.log(val * 2);
+//   }
+//   return;
+// });
+
+// Iterating Over Arrays using - ['For Loop','forEach']
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+//----------forEach----------
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.forEach((val) => {
+//   console.log(val);
+// });
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach((val) => {
+//   console.log(val + 5);
+// });
+
+//-------------------------------------
+
+// splice = removes values
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// // 4 = which index value , 1= how many values
+// let arr1 = arr.splice(4, 1);
+// console.log(arr);
+
+//-------------------------------------
+
+// slice = it does change the original array instead give a return copy of array
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 12];
+
+// let arr1 = arr.slice(7, 12);
+// console.log(arr1);
+// console.log(arr);
+
+//-------------------------------------
+
+//sort
+
+// let arr = [11, 2, 3, 55, 64, 13, 45];
+// let sortt = arr.sort((a, b) => {
+//   //a-b = ascending order
+//    return a - b;
+
+//   //b-a = descending order
+//     return b - a;
+// });
+// console.log(sortt);
+
+//-------------------------------------
+
+// map = tab use karna hai jab naya array banana hai pichhle array ke data ke basis par
+
+//map = dikhte hi saath man mein ek blank array bna liya karo
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 22];
+
+// let arr1 = arr.map(function (val) {
+//   return 12;
+// });
+
+let arr1 = arr.map(function (val) {
+  if (val > 10) return val;
+  else return 0;
+});
+
+console.log(arr1);
