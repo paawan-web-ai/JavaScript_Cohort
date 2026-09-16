@@ -373,6 +373,8 @@
 
 //map = dikhte hi saath man mein ek blank array bna liya karo
 
+//jab bhi aapko aisa koi case dikh jaaye jaha par ek array se naya array banega and wo naya array kuchh values ko rakhega tab map lagega
+
 let arr = [1, 2, 3, 4, 5, 6, 7, 22];
 
 // let arr1 = arr.map(function (val) {
