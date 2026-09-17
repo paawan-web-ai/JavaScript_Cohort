@@ -396,3 +396,43 @@
 //   return acc + val;
 // }, 0);
 // console.log(ans)
+
+// understanding objects in js
+//key-value pair
+//so name is key
+// and value is harsh
+
+// let obj = {
+//   name: "harsh",
+//   age: 27,
+//   email: "harsh@male.com",
+// };
+
+// let obj2 = new Object();
+
+// creating objects accessing properties ,deleting property and nested objects
+
+// let obj = {
+//   name: "harsh",
+// };
+
+//accessing
+
+// obj.name;
+// obj["name"];
+
+//delete
+
+// delete obj.name;
+
+//nested objects
+
+// let obj = {
+//   name: "harsh",
+//   socials: {
+//     instagram: "dfadfds",
+//     facebook: "dfaoie",
+//   },
+// };
+
+
