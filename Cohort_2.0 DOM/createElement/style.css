@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: lightseagreen;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(255, 62, 55);
+}
