@@ -19,7 +19,7 @@ btn.addEventListener("click", () => {
 
   div.style.top = x + "%";
   div.style.left = y + "%";
-  div.style.rotate = r + "deg";
+  div.style.rotate = round + "deg";
 
   main.appendChild(div);
 });
